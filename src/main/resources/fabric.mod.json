@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "no-more-netherite",
+	"version": "${version}",
+	"name": "No More Netherite",
+	"description": "Removes Netherite completely.",
+	"authors": [
+		"herrobriam"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/remove-netherite",
+		"sources": "https://github.com/herrobriam/no-more-netherite"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/no-more-netherite/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.herrobriam.removenetherite.NoMoreNetherite"
+		]
+	},
+	"mixins": [
+		"no-more-netherite.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.19",
+		"java": ">=21"
+	}
+}
